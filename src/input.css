@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* background-image */
+.bg-img {
+    /* background-image: url(../dist/assets/img/Background.png); */
+}
+.bg-hero {
+    background-image: url(../dist/assets/img/Mask\Group.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.bg-second {
+    background-image: url(../dist/assets/img/bg2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+
+    
+    
+}
+.bg-third {
+    background-image: url(../dist/assets/img/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* nav-bar */
+.menulist.active {
+    right: 0;
+}
+.menuicon.active .bar:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+.menuicon.active .bar:nth-child(2) {
+    opacity: 0;
+    transform: translatex(-12px);
+}
+.menuicon.active .bar:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+
+.nav-link {
+
+    -webkit-text-stroke: 1px black;
+}
